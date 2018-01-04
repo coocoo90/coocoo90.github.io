@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="Shiyue Xu">
+    <link rel="icon" href="./assets/img/favicons_shield.gif">
+
+    <title>TEAM: Trauma Error Analysis & Management</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]>
+    <script src="./assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="./assets/css/Navbar.css" rel="stylesheet">
+    <link href="./assets/css/MyCSS.css" rel="stylesheet">
+</head>
+
+<!-- NAVBAR
+================================================== -->
+<body>
+<div class="navbar-wrapper">
+    <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                            aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--<a class="navbar-brand" href="#">Project name</a>-->
+                    <div class="navbar-logo">
+                        <a class="logo-link" href="index.html"><img class="navbar-logo-img"
+                                                                    src="./assets/img/RU_Logo.png"
+                                                                    alt="Rutgers"></a>
+                    </div>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="./Members.html">MEMBERS</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true"
+                               aria-expanded="false">PROJECTS <span class="caret"></span></a>
+                            <!--TODO-->
+                            <ul class="dropdown-menu">
+                                <li><a href="./AIM1.html">Activity Recognition in Medical Settings</a></li>
+                                <li><a href="./AIM2.html">Visual Interactive Tool on Trace Alignment & Trace
+                                    Attribute</a></li>
+                                <li><a href="./AIM3.html">Speech Recognition & Understanding in Trauma Resuscitation</a>
+                                </li>
+                                <li><a href="https://is4health.cci.drexel.edu/">Interactive Systems for Healthcare</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="active"><a href="#">PUBLICATIONS</a></li>
+                        <!--<li><a href="http://www.tru-it.rutgers.edu/related/">RESOURCES</a></li>-->
+                        <li class="dropdown">
+                            <a href="./Resources.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true"
+                               aria-expanded="false">RESOURCES <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="./Resources.html#Source_Code">Source Code</a></li>
+                                <li><a href="./Resources.html#Data_Set">Data Set</a></li>
+                                <li><a href="./Resources.html#Software">Software</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./Funding.html">FUNDING</a></li>
+                        <li><a href="./Contact.html">CONTACT US</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+</div>
+
+<!--Content
+================================================== -->
+
+<div class="container">
+
+    <!--<div class="blog-header">-->
+    <!--<h1 class="blog-title">The Bootstrap Blog</h1>-->
+    <!--<p class="lead blog-description">The official example template of creating a blog with Bootstrap.</p>-->
+    <!--</div>-->
+
+    <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+            <div class="blog-post">
+                <h2 class="blog-post-title" id="2016">In 2016</h2>
+                <hr>
+
+                <ul>
+                    <li>Sen Yang; Moliang Zhou; Rachel Webman; JaeWon Yang; Aleksandra Sarcevic; Ivan Marsic; Randall S.
+                        Burd."<a href="http://link.springer.com/chapter/10.1007/978-3-319-41561-1_28">Duration-Aware
+                            Alignment of Process Traces</a>", Advances in Data Mining. Applications and Theoretical
+                        Aspects
+                        Volume 9728 of the series Lecture Notes in Computer Science pp. 379-393, 28 June 2016.
+                    </li>
+                    <br>
+                    <li>Li, Xinyu; Yao, Dongyang; Pan, Xuechao; Johannaman, Jonathan; Yang, JaeWon;
+                        Webman, Rachel; Sarcevic, Aleksandra; Marsic, Ivan; Burd, Randall S. "<a
+                                href="http://ieeexplore.ieee.org/document/7111343/?arnumber=7111343&newsearch=true&queryText=activity%20recognition%20for%20medical%20team%20work%20based%20on%20passive">Activity
+                            recognition for medical
+                            teamwork based on passive RFID</a>", RFID (RFID), 2016 IEEE International Conference on, On
+                        page(s):
+                        1 -
+                        9.
+                        Slide (<b>Best Paper Nominated</b>)
+                    </li>
+                    <br>
+                    <li>Xinyu Li, Yanyi Zhang, Ivan Marsic, and Randall S. Burd. "<a
+                            href="http://link.springer.com/chapter/10.1007/978-3-319-33618-3_7">Privacy Preserving
+                        Dynamic Room
+                        Layout Mapping.</a>"
+                        In International Conference on Image and Signal Processing, pp. 61-70. Springer International
+                        Publishing,
+                        2016.
+                    </li>
+                    <br>
+                    <li>Sen Yang, Xin Dong, Moliang Zhou, Xinyu Li, et. al. "<a
+                            href="./assets/publication/p130-yang.pdf">VIT-PLA:
+                        Visual
+                        Interactive Tool for Process Log
+                        Analysis</a>" In KDD 2016 Workshop on Interactive Data Exploration and Analytics (IDEA 2016).
+                    </li>
+                    <br>
+                    <li>Xinyu Li, Yanyi Zhang, Mengzhu Li, Ivan Marsic, Randal S. Burd. "<a id="paper_DNN"
+                                                                                            href="http://dl.acm.org/citation.cfm?id=2987355">Deep
+                        Neural Network for RFID Based
+                        Activity Recognition.</a>" In Wireless of the Students, by the Students, and for the Students
+                        (S3) Workshop
+                        with
+                        ACM MobiCom 2016 October 3-7, 2016, New York, NY.
+                    </li>
+                    <br>
+                    <li>Xinyu Li, Yanyi Zhang, Ivan Marsic, et.al. "<b>Deep Learning for RFID-Based Activity
+                        Recognition</b>"
+                        InThe 14th
+                        ACM Conference on Embedded Networked Sensor Systems (SenSys 2016) November 14-16, 2016,
+                        Stanford, CA.
+                    </li>
+                    <br>
+                    <li>Xinyu Li, Yanyi Zhang, Mengzhu Li, Shuhong Chen, Farneth R. Austin, Ivan Marsic, Randal S. Burd.
+                        "<b>Online
+                            Process Phase Detection Using Multimodal Deep Learning</b>" Accepted by The 7th IEEE Annual
+                        Ubiquitous
+                        Computing, Electronics & Mobile Communication Conference New York City, USA 20 - 22 October
+                        2016.
+                    </li>
+                    <br>
+                    <li>Sarcevic, A. and Ferraro, N., “<a
+                            href="http://iwc.oxfordjournals.org/content/early/2016/06/17/iwc.iww021.abstract">On the use
+                        of electronic documentation systems in fast-paced,
+                        time-critical medical settings</a>,” Interacting with Computers, 2016. DOI 10.1093/iwc/iww021
+                    </li>
+                    <br>
+                    <li>Sarcevic, A., Zhang, Z., Marsic, I., and Burd, R. S., “<b>Checklist as a memory externalization
+                        tool during a critical care process</b>,” to appear in Proceedings of the American Medical
+                        Informatics Association 2016 Annual Symposium (AMIA 2016), pp. TBD, Chicago, IL, November 12-16,
+                        2016.
+                    </li>
+                    <br>
+                    <li>Sarcevic, A., Rosen, B., Kulp, L., Marsic, I., and Burd, R. S., “<b>Design challenges in
+                        converting
+                        paper to digital checklists for dynamic medical settings</b>,” in Proceedings of the 10th EAI
+                        International Conference on Pervasive Computing Technologies for Healthcare &#8211; Pervasive
+                        Health 2016, pp. TBD, Cancun, Mexico, May 16-19, 2016.
+                    </li>
+                </ul>
+            </div>
+            <!-- /.blog-post -->
+
+            <div class="blog-post">
+                <h2 class="blog-post-title" id="2015">In 2015</h2>
+                <hr>
+
+                <ul>
+                    <li>Kusunoki, D. S., Sarcevic, A., Zhang, Z., Yala M., “<a
+                            href="http://link.springer.com/article/10.1007/s10606-014-9210-5">Sketching awareness: A
+                        participatory study to elicit designs for supporting emergency medical work</a>,” Computer
+                        Supported Cooperative
+                        Work (CSCW), vol. 24, no. 1, pp. 1-38, February 2015. DOI 10.1007/s10606-014-9210-5.
+                    </li>
+                    <br>
+                    <li>Zhang, Z. and Sarcevic, A., “<a
+                            href="http://link.springer.com/chapter/10.1007/978-3-319-20499-4_9"> Constructing awareness
+                        through speech, gesture, gaze and movement
+                        during a time-critical medical task</a>”, in Proceedings of the European Conference on
+                        Computer-Supported Cooperative Work (ECSCW 2015), pp. 163-182, Oslo, Norway, September 19-23,
+                        2015.
+                    </li>
+                    <br>
+                    <li>Kusunoki, D. S. and Sarcevic, A., “<a href="http://dl.acm.org/citation.cfm?id=2675279">Designing
+                        for temporal awareness: The role of temporality in
+                        time-critical medical teamwork</a>”, in Proceedings of the ACM 2015 Conference on Computer
+                        Supported
+                        Cooperative Work and Social Computing (CSCW 2015), pp. 1465-1476, Vancouver, BC, Canada, March
+                        14-18, 2015. [Best Paper Honorable Mention]
+                    </li>
+                    <br>
+                    <li>Ferraro, N., Sarcevic, A., Myers, S., “<b>An innovative approach to supporting decision making
+                        in a
+                        high-risk medical setting: Iterative design of a real-time information display</b>,” poster
+                        presented at the 8th Annual Mid-Atlantic Healthcare Informatics Symposium, Philadelphia, PA,
+                        October 23, 2015.
+                    <li>Multak, N., Sarcevic, A., Myers, S. R., “<b>Understanding the use of paper records during trauma
+                        and medical resuscitations to inform the design of computer-based documentation tools</b>,”
+                        poster
+                        presented at the 8th Annual Mid-Atlantic Healthcare Informatics Symposium, Philadelphia, PA,
+                        October 23, 2015.
+                    </li>
+                    <br>
+                    <li>Rosen, B., Sarcevic, A., Marsic, I., Burd, R. S., “<b>A dynamic digital checklist for supporting
+                        trauma resuscitation teams</b>,” poster presented at the 8th Annual Mid-Atlantic Healthcare
+                        Informatics Symposium, Philadelphia, PA, October 23, 2015.
+                    </li>
+                    <br>
+                    <li>Moharam, H., Sarcevic, A., Myers, S. R., “<b>Technology design opportunities for supporting work
+                        processes of individual team members during trauma resuscitation</b>,” poster presented at the
+                        8th
+                        Annual Mid-Atlantic Healthcare Informatics Symposium, Philadelphia, PA, October 23, 2015.
+                    </li>
+                    <br>
+                    <li>Ferraro, N., Sarcevic, A., Myers S. R., “<a
+                            href="https://provost.moss.drexel.edu/ora/researchday/abstracts/12014-Ferraro.pdf">
+                        Iterative design of a real-time information display for
+                        a high-risk, fast-paced medical setting</a>,” poster presented at Drexel University Research Day
+                        2015, Philadelphia, PA, May 1, 2015.
+                    </li>
+                    <br>
+                    <li>Zhang, Z. and Sarcevic, A., “<a href="https://www.ideals.illinois.edu/handle/2142/73706">
+                        Pre-hospital information use during trauma resuscitation</a>,”
+                        in Proceedings of the iConference 2015, 4 pages, Newport Beach, California, March 24-25, 2015.
+                    </li>
+
+                </ul>
+            </div>
+
+
+            <div class="blog-post">
+                <h2 class="blog-post-title" id="2014">In 2014</h2>
+                <hr>
+                <!--<p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>-->
+                <ul>
+                    <li>S. Parlak, S. Ayyer, Y.Y. Liu, and I. Marsic,<a href="./assets/publication/TITB-2013.pdf">Design
+                        and evaluation of RFID deployments in a trauma resuscitation bay</a>,<a
+                            href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6609061"><em>IEEE
+                        Journal of Biomedical and Health Informatics</em></a>, Accepted; to appear.<br>(doi: <a
+                            href="http://dx.doi.org/10.1109/JBHI.2013.2283506">10.1109/JBHI.2013.2283506</a>)
+                    </li>
+                    <br>
+                    <li>Zhang, Z., Sarcevic, A., Yala, M., Burd, R. S., “<a
+                            href="http://dl.acm.org/citation.cfm?id=2660423">Informing digital cognitive aids design for
+                        emergency medical work by understanding paper checklist use</a>,” in Proceedings of the ACM 2014
+                        Int’l Conference on Supporting Group Work (GROUP 2014), pp.
+                        167-177, Sanibel Island, Florida, November 9-12, 2014.
+                    </li>
+                    <br>
+                    <li>Kusunoki, D. S., Sarcevic, A., Weibel, N., Marsic, I., Zhang, Z., Tuveson, G., Burd, R. S.,
+                        “<a href="http://dl.acm.org/citation.cfm?id=2557301">Balancing design tensions: Iterative
+                            display design to support ad hoc and interdisciplinary
+                            medical teamwork</a>,” in Proceedings of the ACM SIGCHI Conference on Human Factors in
+                        Computing
+                        Systems (CHI 2014), pp. 3777-3786, Toronto, Canada, April 26 – May 1, 2014.
+                    </li>
+                    <br>
+                    <li>Sarcevic, A., “<b>Understanding trauma resuscitation: Experiences from the field and lessons
+                        learned</b>,” in D. Furniss, A. A. O’Kane, R. Randell, S. Taneva, H. Mentis, and A. Blandford
+                        (Eds.), Fieldwork for Healthcare: Case Studies Investigating Human Factors in Computing Systems,
+                        Synthesis Lectures on Assistive, Rehabilitative, and Health-Preserving Technologies,
+                        vol. 3, no. 1, January 2014, pp. 11-18, Morgan &amp; Claypool Publishers.
+                    </li>
+                </ul>
+            </div>
+            <!-- /.blog-post -->
+
+            <div class="blog-post">
+                <h2 class="blog-post-title" id="2013">In 2013</h2>
+                <hr>
+
+                <ul>
+                    <li>S. Parlak and I. Marsic,
+                        <a href="./assets/publication/TIM-2013.pdf">Detecting object motion using passive RFID: A trauma
+                            resuscitation case study</a>,
+                        <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6545303"><em>IEEE
+                            Transactions on Instrumentation and Measurement</em></a>,
+                        vol. 62, no. 9, pp. 2430-2437, September 2013.<br>
+                        (doi: <a
+                                href="http://dx.doi.org/10.1109/TIM.2013.2258772">10.1109/TIM.2013.2258772</a>)
+                    </li>
+                    <br>
+                    <li>Zhang, Z., Sarcevic, A., Burd, R. S., “<a
+                            href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3900167/"> Supporting information use and
+                        retention of pre-hospital
+                        information during trauma resuscitation: A qualitative study of pre-hospital communications and
+                        information needs</a>,” in Proceedings of the American Medical Informatics Association 2013
+                        Annual
+                        Symposium (AMIA 2013), pp. 1579-1588, Washington, DC, November 16-20, 2013.
+                    </li>
+                    <br>
+                    <li>Kusunoki, D. S., Sarcevic, A., Zhang, Z., Burd, R. S., “<a
+                            href="http://dl.acm.org/citation.cfm?id=2441836"> Understanding visual attention of teams
+                        in dynamic medical settings through vital signs monitor use</a>,” in Proceedings of the ACM 2013
+                        Conference on Computer Supported Cooperative Work and Social Computing (CSCW 2013), pp. 527-540,
+                        San Antonio, Texas, February 23-27, 2013.
+                    </li>
+                    <br>
+                    <li>Kusunoki, D. S., Sarcevic, A., Weibel, N., Burd, R. S. “<a
+                            href="http://dl.acm.org/citation.cfm?id=2534570"> Opportunities for blended interaction in
+                        emergency rooms: Coupling displays with digital pen input</a>,” in Proceedings of the 7th Int’l
+                        Conference on Pervasive Computing Technologies for Healthcare&#8211; Pervasive Health, pp.
+                        288-289, Venice, Italy, May 5-8, 2013.
+                    </li>
+                    <br>
+                    <li>Sarcevic, A., “<b>Understanding trauma resuscitation: Experiences from the field and lessons
+                        learned</b>,” presented at the ACM CHI 2013 Workshop “HCI Fieldwork in Healthcare – Creating a
+                        Guidebook,” Paris, France, April 27, 2013.
+                    </li>
+                    <br>
+                    <li>Zhang, Z. and Sarcevic, A., “<b>An analysis of pre-hospital communication in emergency care</b>,”
+                        presented at the ACM CSCW 2013 Workshop “Beyond Formality: Informal Communication in Health
+                        Practices,”San Antonio, Texas, February 24, 2013.
+                    </li>
+                    <br>
+                    <li>Kusunoki, D. S. and Sarcevic, A., “<a href="https://www.ideals.illinois.edu/handle/2142/42051">
+                        A participatory framework for evaluation design</a>,” in
+                        Proceedings of the iConference 2013, pp. 860-864, Fort Worth, Texas, February 12-15, 2013.
+                    </li>
+                    <br>
+                    <li>Zhang, Z., Sarcevic, A., An, Y., “<a href="https://www.ideals.illinois.edu/handle/2142/42097"> A
+                        prototype system for heterogeneous data management and
+                        medical devices integration in trauma resuscitation</a>,” in Proceedings of the iConference
+                        2013,
+                        pp. 785-789, Fort Worth, Texas, February 12-15, 2013.
+                    </li>
+                </ul>
+            </div>
+            <!-- /.blog-post -->
+
+            <div class="blog-post">
+                <h2 class="blog-post-title" id="2012">In 2012</h2>
+                <hr>
+                <ul>
+                    <li>
+                        S. Parlak, A. Sarcevic, I. Marsic, and R.S. Burd,
+                        <a href="./assets/publication/JBI-2012.pdf">Introducing RFID technology in dynamic and
+                            time-critical medical settings: Requirements and challenges</a>, &nbsp;
+                        <a href="http://www.journals.elsevier.com/journal-of-biomedical-informatics/"><em>Journal
+                            of Biomedical Informatics (Elsevier)</em></a>, vol. 45, no. 5, <a
+                            href="http://www.sciencedirect.com/science/article/pii/S1532046412000561">pp.
+                        958-974</a>, October 2012.<br>
+                        (doi: &nbsp; <a
+                            href="http://dx.doi.org/10.1016/j.jbi.2012.04.003">10.1016/j.jbi.2012.04.003</a>)
+                    </li>
+                    <br>
+                    <li>
+                        A. Sarcevic, I. Marsic, and R.S. Burd,
+                        <a href="./assets/publication/TOCHI-2012.pdf">Teamwork errors in trauma resuscitation</a>,
+                        &nbsp;
+                        <a href="http://tochi.acm.org/"><em>ACM Transactions on Computer-Human Interaction</em></a>,
+                        vol. 19, no. 2,
+                        <a href="http://dl.acm.org/citation.cfm?id=2240161&CFID=353083199">article 13</a>, 30
+                        pages, July 2012.<br>
+                        (doi: &nbsp; <a
+                            href="http://dx.doi.org/10.1145/2240156.2240161">10.1145/2240156.2240161</a>)
+                    </li>
+                    <br>
+                    <li>
+                        Q. Wang, K. Zhang, I. Marsic, J.K.J. Li, and F. Moerchen,
+                        <a href="./assets/publication/pervasiveHealth2012.pdf">Patient-friendly detection of early
+                            peripheral arterial diseases (PAD) by budgeted sensor selection</a>, &nbsp;
+                        <a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6240367"><em>Proceedings
+                            of the 6th International ICST Conference on Pervasive Computing
+                            Technologies for Healthcare (PervasiveHealth)</em></a>, <a
+                            href="http://eudl.eu/doi/10.4108/icst.pervasivehealth.2012.249068">pp. 89-96</a>,
+                        San Diego, CA, May 2012.<br>
+                        (doi: &nbsp; <a
+                            href="http://dx.doi.org/10.4108/icst.pervasivehealth.2012.249068">10.4108/icst.pervasivehealth.2012.249068</a>)
+                    </li>
+                    <br>
+                    <li>Sarcevic, A., Zhang, Z., Kusunoki, D. S., “<a href="http://dl.acm.org/citation.cfm?id=2389191">
+                        Decision making tasks in time-critical medical
+                        settings</a>,” in Proceedings of the ACM 2012 Int’l Conference on Supporting Group Work (GROUP
+                        2012), pp. 99-102, Sanibel Island, Florida, October 27-31, 2012.
+                    </li>
+                    <li>Sarcevic, A., Weibel, N., Hollan J. D., Burd, R. S. “<a
+                            href="http://ieeexplore.ieee.org/document/6240358/?arnumber=6240358&tag=1"> A paper-digital
+                        interface for information capture and display in time-critical medical work</a>,” in Proceedings
+                        of the 6th Int’l Conference on Pervasive Computing Technologies for Healthcare&#8211; Pervasive
+                        Health, pp. 17-24, San Diego, California, May 21-24, 2012.
+                    </li>
+                    <li>Kusunoki, D. S. and Sarcevic, A., “<a href="http://dl.acm.org/citation.cfm?id=2223725">Applying
+                        participatory design theory to designing evaluation
+                        methods</a>,” in Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems
+                        (CHI 2012): Extended Abstracts, pp. 1895-1900, Austin, Texas, May 5-10, 2012.
+                    </li>
+                    <li>Kusunoki, D. S., Zhan, Z., Sarcevic, A., “<b>More monitors? Supporting situation awareness in the
+                        emergency room</b>,” poster presented at Drexel University Research Day 2012, Philadelphia, PA,
+                        April 19, 2012. [<b>Dean’s Aware in the Humanities &amp; Social Sciences Category</b>]
+                    </li>
+                    <li>Zhan, Z., Kusunoki, D. S., Sarcevic, A., “<b>An analysis of decision making tasks and information
+                        sources in trauma resuscitation</b>,” poster presented at Drexel University Research Day 2012,
+                        Philadelphia, PA, April 19, 2012.
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="blog-post">
+                <h2 class="blog-post-title" id="2011">In 2011</h2>
+                <hr>
+                <ul>
+                    <li>
+                        A. Sarcevic, I. Marsic, L.J. Waterhouse, D.C. Stockwell, and R.S. Burd,
+                        <a href="./assets/publication/IJMI-2011.pdf">Leadership structures in emergency care settings:
+                            A study of two trauma centers</a>, &nbsp;
+                        <a href="http://www.journals.elsevier.com/international-journal-of-medical-informatics/"><em>International
+                            Journal of Medical Informatics (Elsevier)</em></a>,
+                        vol. 80, no. 4, <a
+                            href="http://www.sciencedirect.com/science/article/pii/S138650561100027X">pp.
+                        227-238</a>, 2011.<br>(doi: &nbsp; <a
+                            href="http://dx.doi.org/10.1016/j.ijmedinf.2011.01.004">10.1016/j.ijmedinf.2011.01.004</a>)
+                    </li>
+                    <br>
+                    <li>
+                        S. Parlak, I. Marsic, and R.S. Burd, <a
+                            href="./assets/publication/bodynets2011.pdf">Activity recognition for emergency
+                        care using RFID</a>, &nbsp; <em><a
+                            href="http://dl.acm.org/citation.cfm?id=2318776">Proceedings</a>
+                        of the <a href="http://bodynets.org/2011/">International ICST Conference on Body Area
+                            Networks (BodyNets)</a></em>, Beijing, China, 2011. &nbsp; [<a
+                            href="http://dl.acm.org/citation.cfm?id=2318787">paper</a>] &nbsp;
+                        <a href="http://dl.acm.org/citation.cfm?id=2318776">ISBN: 978-1-936968-29-9</a>
+                    </li>
+                    <br>
+                    <li>
+                        A. Sarcevic, N. Weibel, J.D. Hollan, and R.S. Burd, <a
+                            href="./assets/publication/Sarcevic_et_al_2011.pdf">TraumaPen: A
+                        paper-digital interface for information capture and display in
+                        time-critical medical settings</a>, Technical Report, September 2011.
+                    </li>
+                    <br>
+                    <li>
+                        S. Parlak and I. Marsic, <a
+                            href="./assets/publication/RFID-TA_2011.pdf">Non-intrusive localization of
+                        passive RFID tagged objects in an indoor workplace</a>, &nbsp; <em>Proceedings of the <a
+                            href="http://www.ieee.org/conferences_events/conferences/conferencedetails/index.html?Conf_ID=18573">IEEE
+                        International Conference on RFID - Technologies and Applications (RFID-TA)</a></em>,
+                        &nbsp;
+                        <a href="http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=6068635">pages
+                            181-187</a>, Sitges, Spain, September 2011.<br>
+                        (doi: &nbsp; <a
+                            href="http://dx.doi.org/10.1109/RFID-TA.2011.6068635">10.1109/RFID-TA.2011.6068635</a>)
+                    </li>
+                    <br>
+                    <!-- TODO -->
+                    <li>R.S. Burd and S. Elliott, Evaluation, Stabilization, and Initial Management
+                        After Multiple Trauma, <a href="./assets/publication/Ch112-Burd.pdf">Chapter 112</a>,
+                        Section VII &mdash; Environmental Hazards, Trauma, Pharmacology, and Anesthesia,
+                        in <em>Pediatric Critical Care</em>, Fourth Edition,
+                        By B.P. Fuhrman and J.J. Zimmerman, 2011.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="blog-post">
+                <h2 class="blog-post-title" id="2010">In 2010</h2>
+                <hr>
+                <ul>
+                    <li>
+                        S. Parlak and I. Marsic, <a
+                            href="./assets/publication/mobiquitous2010.pdf">Monitoring interactions with RFID tagged
+                        objects using RSSI</a>, &nbsp; <em><a
+                            href="http://www.springer.com/computer/communication+networks/book/978-3-642-29153-1">Proceedings</a>
+                        of the <a href="http://mobiquitous.org/2010/">7th International ICST Conference on
+                            Mobile and Ubiquitous Systems (Mobiquitous)</a></em>, 6 pages, Sydney, Australia,
+                        2010.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="blog-post">
+                <h2 class="blog-post-title" id="2009">In 2009</h2>
+                <hr>
+                <ul>
+                    <li>
+                        A. Sarcevic and R. S. Burd, <a
+                            href="./assets/publication/group2009.pdf">Information handover in
+                        time-critical work</a>, &nbsp; <em>Proceedings of the <a
+                            href="http://www.group2009conference.com/">ACM International
+                        Conference on Supporting Group Work (GROUP 2009)</a></em>,
+                        pp. <a
+                            href="http://portal.acm.org/citation.cfm?id=1531720&jmp=cit&coll=ACM&dl=ACM&CFID=42272915&CFTOKEN=64709021#CIT">301-310</a>,
+                        Sanibel Island, FL, May 2009.<br>
+                        (doi: &nbsp; <a
+                            href="http://doi.acm.org/10.1145/1531674.1531720">10.1145/1531674.1531720</a>)
+                    </li>
+                    <br>
+                    <li>A. Sarcevic, <a href="./assets/publication/chi2009wip.pdf">Understanding
+                        teamwork in high-risk domains through analysis of errors</a>, &nbsp;
+                        <em><a href="http://portal.acm.org/toc.cfm?id=1520340&type=proceeding&coll=ACM&dl=ACM&CFID=10917112">Proceedings</a>
+                            of the <a
+                                    href="http://chi2009.org/Attending/AdvanceProgram/297.html">ACM SIGCHI
+                                Conference on Human Factors in Computing Systems (CHI 2009): Extended
+                                Abstracts</a></em>, pages 4651-4656, Boston, MA, April 2009.<br>
+                        (doi: &nbsp; <a
+                                href="http://doi.acm.org/10.1145/1520340.1520715">10.1145/1520340.1520715</a>)
+                    </li>
+                </ul>
+            </div>
+
+            <div class="blog-post">
+                <h2 class="blog-post-title" id="2008">In 2008</h2>
+                <hr>
+                <ul>
+                    <li>
+                        A. Sarcevic, I. Marsic, M. E. Lesk, and R. S. Burd, <a
+                            href="./assets/publication/cscw2008.pdf">Transactive memory in trauma
+                        resuscitation</a>, &nbsp; <em><a
+                            href="http://portal.acm.org/toc.cfm?id=1460563&type=proceeding&coll=ACM&dl=ACM&CFID=10917112">Proceedings</a>
+                        of the <a href="http://www.cscw2008.org/">ACM 2008 Conference on
+                            Computer Supported Cooperative Work (CSCW 2008)</a>,</em> pages
+                        215-224, San Diego, CA, November 2008.<BR>
+                        (doi: &nbsp; <a
+                            href="http://doi.acm.org/10.1145/1460563.1460597">10.1145/1460563.1460597</a>)
+                    </li>
+                    <br>
+                    <li>A. Sarcevic and R. S. Burd, <a
+                            href="./assets/publication/amia2008.pdf">&#147;What&#146;s the story?&#148;
+                        Information needs of trauma teams</a>, &nbsp; <em>Proceedings of the
+                        <a href="http://symposium2008.amia.org/">American Medical Informatics
+                            Association 2008 Annual Symposium (AMIA 2008)</a>,</em> Volume 6,
+                        pages 641-645, Washington, DC, November 2008.<BR>
+                        (<a href="http://www.ncbi.nlm.nih.gov/pubmed/18999288?">PMID:
+                            18999288</a>)
+                    </li>
+                    <br>
+                    <li>A. Sarcevic, M. E. Lesk, I. Marsic, and R. S. Burd, <a
+                            href="./assets/publication/chi2008wip.pdf">Quantifying adaptation parameters for
+                        information support of trauma teams</a>, &nbsp; <em><a
+                            href="http://portal.acm.org/citation.cfm?doid=1358628.1358848">Proceedings</a> of
+                        the <a
+                                href="http://chi2008.org/works_in_progress.html">ACM SIGCHI Conference
+                            on Human Factors in Computing Systems (CHI 2008): Extended
+                            Abstracts</a>,</em> pages 3303-3308, Florence, Italy, April 2008.<BR>
+                        (doi: &nbsp; <a
+                                href="http://doi.acm.org/10.1145/1358628.1358848">10.1145/1358628.1358848</a>)
+                    </li>
+                    <br>
+                    <li>M. S. Tinti, A. Sarcevic, I. Marsic, J. S. Hammond, and
+                        R. S. Burd, &nbsp; Quantfying error types, attribution and timing in trauma
+                        resuscitation, <a
+                                href="http://cms.aast.org/uploadedFiles/Library/2008%20Posters%20Session%20I.pdf"><em>Proceedings
+                            of the American Association for the Surgery of Trauma 67th Annual
+                            Meeting</em></a>, Session IV, Poster # SI-76 (page 76), October 2008.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="blog-post">
+                <h2 class="blog-post-title" id="2007">In 2007</h2>
+                <hr>
+                <ul>
+                    <li>
+                        A. Sarcevic, Human-information interaction in time-critical
+                        settings: Information needs and use in the emergency room,
+                        <em>Proceedings of the <a
+                                href="http://www.asis.org/Conferences/AM07/index.html">70th Annual
+                            Meeting of the American Society for Information Science and Technology
+                            (ASIS&T 2007)</a></em>, Volume 44, Issue 1, 15 pages, Milwaukee,
+                        Wisconsin, October 2007.
+                    </li>
+                </ul>
+            </div>
+
+            <!--<nav>-->
+            <!--<ul class="pager">-->
+            <!--<li><a href="#">Previous</a></li>-->
+            <!--<li><a href="#">Next</a></li>-->
+            <!--</ul>-->
+            <!--</nav>-->
+
+        </div>
+        <!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+            <div class="sidebar-module sidebar-module-inset">
+                <h4>About</h4>
+
+                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet
+                    fermentum.
+                    Aenean lacinia bibendum nulla sed consectetur.</p>
+            </div>
+            <div class="sidebar-module">
+                <h4>Archives</h4>
+                <ol class="list-unstyled">
+                    <li><a href="#2016">In 2016</a></li>
+                    <li><a href="#2015">In 2015</a></li>
+                    <li><a href="#2014">In 2014</a></li>
+                    <li><a href="#2013">In 2013</a></li>
+                    <li><a href="#2012">In 2012</a></li>
+                    <li><a href="#2011">In 2011</a></li>
+                    <li><a href="#2010">In 2010</a></li>
+                    <li><a href="#2009">In 2009</a></li>
+                    <li><a href="#2008">In 2008</a></li>
+                    <li><a href="#2007">In 2007</a></li>
+                </ol>
+            </div>
+            <!--<div class="sidebar-module">-->
+            <!--<h4>Elsewhere</h4>-->
+            <!--<ol class="list-unstyled">-->
+            <!--<li><a href="#">GitHub</a></li>-->
+            <!--<li><a href="#">Twitter</a></li>-->
+            <!--<li><a href="#">Facebook</a></li>-->
+            <!--</ol>-->
+            <!--</div>-->
+        </div>
+        <!-- /.blog-sidebar -->
+
+    </div>
+    <!-- /.row -->
+    <br>
+
+    <div class="row">
+        <div class="col-md-8">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th><span class="glyphicon glyphicon-folder-open"></span></th>
+                </tr>
+                </thead>
+                <tbody>
+
+                <tr>
+                    <td><span class="glyphicon glyphicon-paperclip"></span></td>
+                    <td>VIT-PLA Visual Interactive Tool for Process Log Analysis</td>
+                    <td>XINYU LI</td>
+                    <td>
+                        <a href="./assets/publication/VIT-PLA%20Visual%20Interactive%20Tool%20for%20Process%20Log%20Analysis.pdf"><span
+                                class="glyphicon glyphicon-circle-arrow-down"></span></a></td>
+                </tr>
+
+                <tr>
+                    <td><span class="glyphicon glyphicon-paperclip"></span></td>
+                    <td>Privacy Preserving Dynamic Room Layout Mapping</td>
+                    <td>XINYU LI</td>
+                    <td>
+                        <a href="./assets/publication/Privacy%20Preserving%20Dynamic%20Room%20Layout%20Mapping.pdf"><span
+                                class="glyphicon glyphicon-circle-arrow-down"></span></a></td>
+                </tr>
+
+                <tr>
+                    <td><span class="glyphicon glyphicon-paperclip"></span></td>
+                    <td>Privacy Preserving Dynamic Room Layout Mapping Poster</td>
+                    <td>XINYU LI</td>
+                    <td>
+                        <a href="./assets/publication/Privacy%20Preserving%20Dynamic%20Room%20Layout%20Mapping%20Poster.pdf"><span
+                                class="glyphicon glyphicon-circle-arrow-down"></span></a></td>
+                </tr>
+
+                <tr>
+                    <td><span class="glyphicon glyphicon-paperclip"></span></td>
+                    <td>Deep Neural Network for RFID Based Activity Recognition-Cmaera Ready</td>
+                    <td>XINYU LI</td>
+                    <td><a
+                            href="./assets/publication/Deep%20Neural%20Network%20for%20RFID%20Based%20Activity%20Recognition-Cmaera%20Ready.pdf"><span
+                            class="glyphicon glyphicon-circle-arrow-down"></span></a></td>
+                </tr>
+                <tr>
+                    <td><span class="glyphicon glyphicon-paperclip"></span></td>
+                    <td>Activity Recognition for Medical Teamwork Based on Passive RFID_Slides</td>
+                    <td>XINYU LI</td>
+                    <td><a
+                            href="./assets/publication/Activity%20Recognition%20for%20Medical%20Teamwork%20Based%20on%20Passive%20RFID_Slides.pdf"><span
+                            class="glyphicon glyphicon-circle-arrow-down"></span></a></td>
+                </tr>
+                <tr>
+                    <td><span class="glyphicon glyphicon-paperclip"></span></td>
+                    <td>Activity Recognition for Medical Teamwork Based on Passive RFID</td>
+                    <td>XINYU LI</td>
+                    <td><a
+                            href="./assets/publication/Activity%20Recognition%20for%20Medical%20Teamwork%20Based%20on%20Passive%20RFID.pdf"><span
+                            class="glyphicon glyphicon-circle-arrow-down"></span></a></td>
+                </tr>
+                <tr>
+                    <td><span class="glyphicon glyphicon-paperclip"></span></td>
+                    <td>Duration-Aware Alignment of Process Traces</td>
+                    <td>SENG YANG</td>
+                    <td><a
+                            href="./assets/publication/Duration%20Aware%20Alignment%20of%20Process%20Traces.pdf"><span
+                            class="glyphicon glyphicon-circle-arrow-down"></span></a></td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+
+        <!--<p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>-->
+    </footer>
+
+</div>
+<!-- /.container -->
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="./assets/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+<script src="./assets/js/vendor/holder.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,72 @@
+.navbar-logo-img{
+  max-height: 32px;
+  max-width: 200px;
+  /*background: url(../../../image/RU_Logo.png) 0 0 no-repeat;*/
+}
+
+.navbar-logo{
+  padding-top: 15px;
+  padding-left: 0px;
+  padding-right: 15px;
+}
+
+.navbar-collapse{
+  position: absolute;
+  right: 15px;
+  bottom: 0px;
+}
+
+.Member-header{
+  font-style: italic;
+}
+
+.members_main .navbar .container {
+  width: auto;
+}
+
+.active .project > .a{
+  background-color: grey;
+}
+
+#whole-project{
+  width: 100%;
+}
+
+span.pub_title {
+  font-weight: 700;
+  font-size: 16px;
+  color: black;
+}
+span.pub_authors {
+  font-weight: 300;
+  font-size: 14px;
+}
+span.pub_myname {
+  font-weight: 400;
+  font-size: 14px;
+}
+span.pub_type {
+  font-weight: 300;
+  color: #7F7F7F;
+  font-size: 14px;
+}
+span.pub_downloads {
+  font-weight: 300;
+  color: #7F7F7F;
+  font-size: 12px;
+}
+span.pub_award {
+  color: #de2d26;
+  font-weight: 500;
+}
+span.pub_me {
+  text-decoration: underline;
+}
+
+.marketing .col-lg-6{
+  text-align: center;
+}
+
+div.alumni .col-lg-4{
+  text-align: left;
+}
